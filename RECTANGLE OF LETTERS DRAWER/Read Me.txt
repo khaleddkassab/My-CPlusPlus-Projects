@@ -1,0 +1,8 @@
+Implement a function called drawRectangle that draw a rectangular shape based on its given dimensions.
+drawRectangle has the following parameters:
+• L : length of the rectangle
+• W : width of the rectangle
+Constraints:
+• Output shape should be printed using the alphabets as shown below.
+• We need to keep the middle of the rectangle empty.
+The function drawRectangle will call 2 functions to perform its task, the first is drawFirst_Last which is used to draw the first and last rows of the rectangle, and the second is drawMiddle which draws all of the intermediate lines. Both of drawFirst_Last & drawMiddle take width of the rectangle and the character to print as parameters.

@@ -1,0 +1,9 @@
+Problem-2: long integer (70 points): Write a C++ program that takes a long integer (use the appropriate data type to accept up to 25 digits) then your program should contain and display a selection menu as follows: (1)- Find number of digits of the number (2)- Get the sum of all the number’s digits (3)- Get the average of the digits in the even places of the number (precision of 2 places) (4)- Get the average of the digits in the odd places of the number (precision of 2 places) (5)- Get the number of times a certain digit occurs in the number (6)- Get another number that has the number’s digits reversed (7)- Find the digit in the middle, or the average of the 2 digits in the middle if the number has an even number of digits. (8)- Enter a new number
+(E)- Exit program
+Constraints:
+• Every choice should be programmed as a separate function
+• Only the choice of the user is executed (1-8)
+• The program should be in a continuous state of running unless you choose (E) then your program should exit.
+• Built-in functions are not allowed
+Example1: Number: 138761345309 (1) 12 (2) 54 (3) 4.5 (4) 3.83 (5) digit: 1 → 2 times (6) 903543167831 (7) 2
+Example2: Number: 58796254315 (1) 11 (2) 55 (3) 4.8 (4) 5.16 (5) digit: 5 → 3 times (6) 51345269785 (7) 2

@@ -1,0 +1,35 @@
+Cinema Reservation System
+Write a program that can be used by a cinema to reserve tickets for movies.
+The program shows an output that represents the seating in the cinema.
+Initially, the user enters the number of rows of seats in the hall, and the number of seats per row (with a maximum of 25 seats in each row). For example, the following output shows the reserved and free seats in the cinema hall for 20 rows and 25 seats per row. Seats that are taken are represented by a $ symbol, and seats that are free are represented by a – symbol.
+SCREEN
+ABCDEFGHIJKLMNOPQRSTUVWXY
+Row 1 $$$---$$$---$---$---$$---
+Row 2 ----$$$$$$$$$$$$$----$$$$
+Row 3 $$---$$$$$$$$$$----------
+Row 4 $$------$$$$$$$$$$$$-$-$$
+Row 5 $$$$$$$$-----$$$$$$$--$$$
+Row 6 --------------$$$$$$-----
+Row 7 -------$$$$$$$$$$$$-$$$--
+Row 8 $$$$$$$$$$$$--$$$$-------
+Row 9 ---------$$$$$-----------
+Row 10 -----$$$$$$$$$$$$$-------
+Row 11 -$$$$$$$$$$--------------
+Row 12 -------------$$$$$$$-----
+Row 13 ---$$$$$$$$$$$------$$$$-
+Row 14 -------------------------
+Row 15 -------------------------
+Row 16 -------------------------
+Row 17 -------------------------
+Row 18 -------------------------
+Row 19 -------------------------
+Row 20 -------------------------
+Use a dynamic 2D array for the seats. Use a function for each of the functionalities from a to f. Allow the user to: 1- Enter the number of rows of seats, and number of seats per row. This only happens at the beginning.
+2- Next: Display a loop that allows the user to do one of the following:
+a- Reserve a number of seats: first allow the user to enter number of seats, then for each seat ask the user to enter the seat number. If the seat is taken or invalid display an appropriate message, otherwise reserve the seat, and allow the user to enter the next seat number, and so on. After finishing the reservation process display the current seating in the cinema as shown above.
+b- Get seats recommendation: allow the user to enter the required number of seats, then search for the first row that has this number of consecutive seats, recommend the seat numbering to the user. For example, based on the above displayed reservations, let’s say the
+user wants a recommendation for 5 seats, your system will display “Any 5 seats from 3P to 3Y”. The user can then choose option 1 to reserve the 4 seats.
+c- Cancel a number of seat reservations. Same operation as reservation but for cancelling. Display the cinema’s current seating after finishing the cancellation process.
+d- Clear all reservations to reset all the current seating reservations.
+e- Display statistics about the current reservations by calculating: - The percentage of occupancy of the cinema - The percentage of occupancy of each row of seats
+f- Exit

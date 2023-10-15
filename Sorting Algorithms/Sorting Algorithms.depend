@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1648770897 source:e:\c++ projects\sorting algorithms\main.cpp
+	<iostream>
+	<math.h>
+	<fstream>
+	"Student.h"
+
+1649155931 e:\c++ projects\sorting algorithms\student.h
+	<iostream>
+	<math.h>
+	<fstream>
+

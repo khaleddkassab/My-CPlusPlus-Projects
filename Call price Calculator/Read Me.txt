@@ -1,0 +1,9 @@
+Problem-3: Telephone Company! (20 points)
+The telephone company has the following rate structure for calls:
+• The regular rate of a call is L.E. 0.5 per minute
+• Any call started at or after 11:00 PM (23:00) but before 06:00 AM (06:00) is discounted by 25%
+• Any call longer than 60 minutes receives a 15% raise on its total cost (after applying the discount)
+• All calls are subject to a 7% sales tax on their final cost
+Calculate and print the total cost for a telephone call taking the start and end time of the call in a 24-hour format. For example, 02:30 PM should be entered as 14:30, and 12:30 AM is entered as 00:30. Round the cost to only 2 digits after the decimal point. Example input/output: start: 11:30, end: 13:12 , output: 62.76 L.E.
+Example input/output: start: 00:09, end: 00:35 , output: 10.43 L.E.
+Note that the call duration in the first example will be 102 minutes and in the second 26 minutes.

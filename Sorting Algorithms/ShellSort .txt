@@ -1,0 +1,22 @@
+Number Of Comparisons : 4
+Name: Ahmad Hossam
+ID: 20203002
+GPA: 4
+Name: Hana Samir
+ID: 957693
+GPA: 3.7
+Name: Hany Ali
+ID: 36572
+GPA: 2.5
+Name: Kareem Mohamed
+ID: 46598
+GPA: 2.2
+Name: Laila Fayed
+ID: 4555467
+GPA: 3.9
+Name: Mahmoud Youssef
+ID: 123654
+GPA: 2.9
+Name: Sara Ahmed
+ID: 64387
+GPA: 3.2
